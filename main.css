@@ -1,0 +1,93 @@
+body {
+	background-color: white;
+}
+
+h2 {
+	font-family: 'Lexend', sans-serif;
+	font-weight: 400;
+}
+
+p {
+	font-size: 16pt;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+button {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.line {
+	background-color: black;
+	height: 1px;
+	margin: 40px 0 40px 0;
+}
+
+.label {
+	font-size: 16pt;
+}
+
+.text {
+	font-size: 16pt;
+	color: #000000;
+}
+
+.responses {
+	width: 750px;
+	font-size: 20pt;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.container {
+	margin: 15px;
+}
+
+#colorPicker {
+	width: 44px;
+	height: 44px;
+}
+
+#colorPicker:hover {
+	cursor: pointer;
+}
+
+#colorPickerFont {
+	width: 44px;
+	height: 44px;
+}
+
+#colorPickerFont:hover {
+	cursor: pointer;
+}
+
+#reset:hover {
+	cursor: pointer;
+}
+
+.font-changer {
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-between;
+	width: 200px;
+	height: 70px;
+	align-items: center;
+}
+
+.bg-color-changer {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+#down:hover {
+	cursor: pointer;
+}
+
+#up:hover {
+	cursor: pointer;
+}

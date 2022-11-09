@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/ghp6bbu.css">
+	<title>Customization Code Snippet</title>
+</head>
+<body>
+	<div class="container">
+		<div class="bg-color-changer">
+			<p class="label">Background color: </p>
+			<input type="color" value="#ffffff" id="colorPicker">
+		</div>
+		<div class="bg-color-changer">
+			<p class="label">Font color: </p>
+			<input type="color" value="#000000" id="colorPickerFont">
+		</div>
+		<div class="font-changer">
+			<p class="label">Font size: </p>
+			<button id="down">-</button>
+			<p id="font-size"></p>
+	  		<button id="up">+</button>
+  		</div>
+  		<button type="button" onClick="refreshPage()" id="reset">Reset</button>
+		<p class="text">This is some text.</p>
+
+		<div class="line"></div>
+
+		<h2>What do people find delight in?</h2>
+		<div class="responses">When something catches me off guard due to its uniqueness. The process of finding something new and innovative. </br>
+		Anything that I didnt know was currently possible, or people using tech in creative ways, like some VR things.</div>
+	</div>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
