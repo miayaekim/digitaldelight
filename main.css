@@ -62,12 +62,11 @@ button {
 .uniqueness {
 	display: inline;
 	font-weight: 800;
-	filter: brightness(150%);
 }
 
 .uniqueness:hover {
 	cursor: url('imgs/uniqueness.png') 30 30, auto;
-	opacity: 40%;
+	opacity: 15%;
 	transition: opacity 0.35s;
 }
 
@@ -78,7 +77,7 @@ button {
 
 .new-innovative:hover {
 	cursor: url('imgs/new_and_innovative.png') 40 30, auto;
-	opacity: 40%;
+	opacity: 15%;
 	transition: opacity 0.35s;
 }
 
@@ -89,7 +88,7 @@ button {
 
 .creative-ways:hover {
 	cursor: url('imgs/creative_ways.png') 30 30, auto;
-	opacity: 40%;
+	opacity: 15%;
 	transition: opacity 0.35s;
 }
 
@@ -100,7 +99,7 @@ button {
 
 .vr-things:hover {
 	cursor: url('imgs/vr_things.png') 30 30, auto;
-	opacity: 40%;
+	opacity: 15%;
 	transition: opacity 0.35s;
 }
 
