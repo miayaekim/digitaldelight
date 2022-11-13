@@ -12,13 +12,18 @@
 </head>
 <body>
 	<div class="container">
+		<h1>Code Demo</h1>
+		<p class="intro">This is a demo of some of the features that will be featured on the Digital Delight website. The first section features codes that allow the user to customize the font size and background color of the website. In the second section, users will be able to interact with survey responses by hovering over the bolded text.</p>
+
+		<div class="line"></div>
+
 		<div class="bg-color-changer">
 			<p class="label">Background color: </p>
-			<input type="color" value="#ffffff" id="colorPicker">
+			<input type="color" value="#FFF1D7" id="colorPicker">
 		</div>
 		<div class="bg-color-changer">
 			<p class="label">Font color: </p>
-			<input type="color" value="#000000" id="colorPickerFont">
+			<input type="color" value="#231F20" id="colorPickerFont">
 		</div>
 		<div class="font-changer">
 			<p class="label">Font size: </p>
@@ -27,13 +32,13 @@
 	  		<button id="up">+</button>
   		</div>
   		<button type="button" onClick="refreshPage()" id="reset">Reset</button>
-		<p class="text">This is some text.</p>
+		<p class="text">This is some sample text. This text is in a paragraph, where there are multiple sentences. All of these sentences make a paragraph. This sample text needs more words so that the paragraph is long enough. This paragraph should be relatively long now. Here is another sentence. And now I'm adding one more sentence as well.</p>
 
 		<div class="line"></div>
 
 		<h2>What do people find delight in?</h2>
-		<div class="responses">When something catches me off guard due to its uniqueness. The process of finding something new and innovative. </br>
-		Anything that I didnt know was currently possible, or people using tech in creative ways, like some VR things.</div>
+		<div class="responses">When something catches me off guard due to its <div class="uniqueness">uniqueness</div>. The process of finding something <div class="new-innovative">new and innovative.</div> </br>
+		Anything that I didnt know was currently possible, or people using tech in <div class="creative-ways">creative ways</div>, like some <div class="vr-things">VR things</div>.</div>
 	</div>
 
 	<script src="jquery-3.5.1.min.js"></script>

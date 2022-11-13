@@ -1,5 +1,10 @@
 body {
-	background-color: white;
+	background-color: #FFF1D7;
+}
+
+h1 {
+	font-family: 'Lexend', sans-serif;
+	font-weight: 400;
 }
 
 h2 {
@@ -32,7 +37,12 @@ button {
 
 .text {
 	font-size: 16pt;
-	color: #000000;
+	color: #231F20;
+	width: 1100px;
+}
+
+.intro {
+	width: 1100px;
 }
 
 .responses {
@@ -44,12 +54,63 @@ button {
 }
 
 .container {
-	margin: 15px;
+	margin: 70px;
 }
+
+/*===== HOVER =====*/
+
+.uniqueness {
+	display: inline;
+	font-weight: 800;
+	filter: brightness(150%);
+}
+
+.uniqueness:hover {
+	cursor: url('imgs/uniqueness.png') 30 30, auto;
+	opacity: 40%;
+	transition: opacity 0.35s;
+}
+
+.new-innovative {
+	display: inline;
+	font-weight: 800;
+}
+
+.new-innovative:hover {
+	cursor: url('imgs/new_and_innovative.png') 40 30, auto;
+	opacity: 40%;
+	transition: opacity 0.35s;
+}
+
+.creative-ways {
+	display: inline;
+	font-weight: 800;
+}
+
+.creative-ways:hover {
+	cursor: url('imgs/creative_ways.png') 30 30, auto;
+	opacity: 40%;
+	transition: opacity 0.35s;
+}
+
+.vr-things {
+	display: inline;
+	font-weight: 800;
+}
+
+.vr-things:hover {
+	cursor: url('imgs/vr_things.png') 30 30, auto;
+	opacity: 40%;
+	transition: opacity 0.35s;
+}
+
+/*===== CUSTOMIZATION =====*/
 
 #colorPicker {
 	width: 44px;
 	height: 44px;
+	border: solid #231F20 2px;
+	background-color: #FFF1D7;
 }
 
 #colorPicker:hover {
@@ -59,14 +120,27 @@ button {
 #colorPickerFont {
 	width: 44px;
 	height: 44px;
+	border: solid #231F20 2px;
+	background-color: #FFF1D7;
 }
 
 #colorPickerFont:hover {
 	cursor: pointer;
 }
 
+#reset {
+	font-size: 14pt;
+	border: solid #231F20 2px;
+	padding: 5px 15px 5px 15px;
+	background-color: #FFE2A2;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 #reset:hover {
 	cursor: pointer;
+	background-color: #FFCE61;
+	transition: background-color 0.35s;
 }
 
 .font-changer {
@@ -84,10 +158,27 @@ button {
 	align-items: center;
 }
 
+#up {
+	border: solid #231F20 2px;
+	background-color: #FFE2A2;
+	font-weight: 800;
+}
+
+#down {
+	border: solid #231F20 2px;
+	background-color: #FFE2A2;
+	font-weight: 800;
+}
+
 #down:hover {
 	cursor: pointer;
+	background-color: #FFCE61;
+	transition: background-color 0.35s;
 }
 
 #up:hover {
 	cursor: pointer;
+	background-color: #FFCE61;
+	transition: background-color 0.35s;
 }
+
